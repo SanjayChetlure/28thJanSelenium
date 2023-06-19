@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-18T19:52:00 IST" name="Suite" finished-at="2023-06-18T19:52:25 IST" duration-ms="24205">
+  <suite started-at="2023-06-19T19:54:22 IST" name="Default suite" finished-at="2023-06-19T19:54:54 IST" duration-ms="32208">
     <groups>
     </groups>
-    <test started-at="2023-06-18T19:52:00 IST" name="Test" finished-at="2023-06-18T19:52:25 IST" duration-ms="24205">
-      <class name="POM_DDF_TestNG.PBLoginTest1">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:POM_DDF_TestNG.PBLoginTest1@611889f4]" started-at="2023-06-18T19:52:00 IST" name="openBrowser" finished-at="2023-06-18T19:52:09 IST" duration-ms="8820" status="PASS">
+    <test started-at="2023-06-19T19:54:22 IST" name="Default test" finished-at="2023-06-19T19:54:54 IST" duration-ms="32208">
+      <class name="POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:22 IST" name="openBrowser" finished-at="2023-06-19T19:54:41 IST" duration-ms="18743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:POM_DDF_TestNG.PBLoginTest1@611889f4]" started-at="2023-06-18T19:52:09 IST" name="loginToApp" finished-at="2023-06-18T19:52:15 IST" duration-ms="6273" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:41 IST" name="loginToApp" finished-at="2023-06-19T19:54:47 IST" duration-ms="6112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="verifyFullName()[pri:0, instance:POM_DDF_TestNG.PBLoginTest1@611889f4]" started-at="2023-06-18T19:52:15 IST" name="verifyFullName" finished-at="2023-06-18T19:52:22 IST" duration-ms="6280" status="PASS">
+        <test-method signature="verifyFullName()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:47 IST" name="verifyFullName" finished-at="2023-06-19T19:54:52 IST" duration-ms="4645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFullName -->
-        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:POM_DDF_TestNG.PBLoginTest1@611889f4]" started-at="2023-06-18T19:52:22 IST" name="logoutFromApp" finished-at="2023-06-18T19:52:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:52 IST" name="logoutFromApp" finished-at="2023-06-19T19:54:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POM_DDF_TestNG.PBLoginTest1@611889f4]" started-at="2023-06-18T19:52:22 IST" name="closeBrowser" finished-at="2023-06-18T19:52:25 IST" duration-ms="2781" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:52 IST" name="closeBrowser" finished-at="2023-06-19T19:54:54 IST" duration-ms="2673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- POM_DDF_TestNG.PBLoginTest1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
