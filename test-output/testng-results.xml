@@ -2,32 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-19T19:54:22 IST" name="Default suite" finished-at="2023-06-19T19:54:54 IST" duration-ms="32208">
+  <suite started-at="2023-06-20T20:04:58 IST" name="Default suite" finished-at="2023-06-20T20:06:13 IST" duration-ms="74286">
     <groups>
     </groups>
-    <test started-at="2023-06-19T19:54:22 IST" name="Default test" finished-at="2023-06-19T19:54:54 IST" duration-ms="32208">
-      <class name="POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:22 IST" name="openBrowser" finished-at="2023-06-19T19:54:41 IST" duration-ms="18743" status="PASS">
+    <test started-at="2023-06-20T20:04:58 IST" name="Default test" finished-at="2023-06-20T20:06:13 IST" duration-ms="74286">
+      <class name="POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBLoginTest1">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBLoginTest1@2f217633]" started-at="2023-06-20T20:04:59 IST" name="openBrowser" finished-at="2023-06-20T20:05:28 IST" duration-ms="29145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:41 IST" name="loginToApp" finished-at="2023-06-19T19:54:47 IST" duration-ms="6112" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBLoginTest1@2f217633]" started-at="2023-06-20T20:05:28 IST" name="loginToApp" finished-at="2023-06-20T20:05:36 IST" duration-ms="8280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="verifyFullName()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:47 IST" name="verifyFullName" finished-at="2023-06-19T19:54:52 IST" duration-ms="4645" status="PASS">
+        <test-method signature="verifyFullName()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBLoginTest1@2f217633]" started-at="2023-06-20T20:05:36 IST" name="verifyFullName" finished-at="2023-06-20T20:06:10 IST" duration-ms="34118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFullName -->
-        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:52 IST" name="logoutFromApp" finished-at="2023-06-19T19:54:52 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBLoginTest1@2f217633]" started-at="2023-06-20T20:06:10 IST" name="logoutFromApp" finished-at="2023-06-20T20:06:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFullName status=SUCCESS method=PBLoginTest1.verifyFullName()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBLoginTest1@2f217633] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1@48f278eb]" started-at="2023-06-19T19:54:52 IST" name="closeBrowser" finished-at="2023-06-19T19:54:54 IST" duration-ms="2673" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBLoginTest1@2f217633]" started-at="2023-06-20T20:06:10 IST" name="closeBrowser" finished-at="2023-06-20T20:06:13 IST" duration-ms="2706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- POM_DDF_TestNG_BaseClass_UtilityClass.PBLoginTest1 -->
+      </class> <!-- POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBLoginTest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
